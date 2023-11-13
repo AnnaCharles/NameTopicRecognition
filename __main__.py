@@ -15,24 +15,6 @@ import TopicRecognition.questions_par_topic as par_topic
 from datetime import date
 
 parser = argparse.ArgumentParser()
-# config_path = os.path.join(os.path.dirname(__file__), "config.yml")
-# config_dict = prm.load_config_file(config_path)
-# for param, value in config_dict.items():
-#     if type(value) == dict and "help" in value:
-#         help_message = value["help"]
-#         default = value["value"]
-#         argument_type = type(value["value"])
-#     else:
-#         help_message = argparse.SUPPRESS
-#         argument_type = type(value)
-#         default = value
-    
-#     parser.add_argument(
-#         "--{}".format(param.replace("_", "-")),
-#         type=argument_type,
-#         default=default,
-#         help=help_message
-#     )
 
 def load_cli_parameters():
     subparsers = parser.add_subparsers(title="commands")
