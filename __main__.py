@@ -14,7 +14,6 @@ import TopicRecognition.questions_par_topic as par_topic
 
 from datetime import date
 
-#logger = logging.getLogger("pimmi")
 parser = argparse.ArgumentParser()
 # config_path = os.path.join(os.path.dirname(__file__), "config.yml")
 # config_dict = prm.load_config_file(config_path)
